@@ -10,3 +10,5 @@ def display(n, spacing = 1):
 
 
 display(1257634,2)
+print()
+display(30737,5)
