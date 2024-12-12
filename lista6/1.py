@@ -2,7 +2,7 @@ from duze_cyfry import daj_cyfre
 from random import choice, randint
 from turtle import Turtle, tracer
 
-GRID_SIZE = 30
+GRID_SIZE = 50
 ITEM_WIDTH = 5
 ITEM_HEIGHT = 5
 grid = []
@@ -68,7 +68,7 @@ def generate_grid(grid, numbers):
             y = randint(0, GRID_SIZE - ITEM_HEIGHT)
         spawn(number_array, grid, color,x,y)
 
-numbers = [randint(0,9) for x in range(25)]
+numbers = [randint(0,9) for x in range(85)]
 generate_grid(grid,numbers)
 
 t = Turtle()
